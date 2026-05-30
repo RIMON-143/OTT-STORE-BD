@@ -1,0 +1,260 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OTT STORE BD</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#ffffff;
+color:#111;
+overflow-x:hidden;
+}
+
+header{
+position:fixed;
+top:0;
+width:100%;
+padding:20px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(255,255,255,.95);
+backdrop-filter:blur(12px);
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+z-index:1000;
+}
+
+.logo{
+font-size:28px;
+font-weight:700;
+background:linear-gradient(90deg,#4f46e5,#7c3aed);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+nav a{
+text-decoration:none;
+margin-left:25px;
+color:#222;
+font-weight:500;
+transition:.3s;
+}
+
+nav a:hover{
+color:#4f46e5;
+}
+
+.hero{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(135deg,#ffffff,#f4f6ff);
+}
+
+.hero-content{
+animation:fadeUp 1s ease;
+}
+
+.hero h1{
+font-size:65px;
+font-weight:700;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:18px;
+color:#666;
+margin-bottom:30px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 35px;
+background:linear-gradient(90deg,#4f46e5,#7c3aed);
+color:white;
+text-decoration:none;
+border-radius:50px;
+font-weight:600;
+transition:.3s;
+box-shadow:0 10px 25px rgba(79,70,229,.3);
+}
+
+.btn:hover{
+transform:translateY(-5px);
+}
+
+section{
+padding:100px 8%;
+}
+
+.section-title{
+text-align:center;
+font-size:40px;
+margin-bottom:40px;
+}
+
+.card{
+max-width:700px;
+margin:auto;
+padding:35px;
+background:white;
+border-radius:25px;
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+animation:fadeUp 1s ease;
+}
+
+.feature-list{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:15px;
+margin-top:20px;
+}
+
+.feature{
+padding:15px;
+background:#f7f8ff;
+border-radius:12px;
+font-weight:500;
+}
+
+.contact-btn{
+display:block;
+text-decoration:none;
+margin-top:15px;
+padding:15px;
+border-radius:12px;
+background:#f7f8ff;
+color:#111;
+font-weight:600;
+transition:.3s;
+}
+
+.contact-btn:hover{
+background:#ecefff;
+}
+
+footer{
+text-align:center;
+padding:25px;
+background:#f7f7f7;
+color:#666;
+}
+
+@keyframes fadeUp{
+from{
+opacity:0;
+transform:translateY(40px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">OTT STORE BD</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#features">Features</a>
+<a href="#download">Download</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero" id="home">
+<div class="hero-content">
+<h1>OTT STORE BD</h1>
+<p>All Entertainment In One Place</p>
+<a href="#download" class="btn">Download App</a>
+</div>
+</section>
+
+<section id="features">
+<h2 class="section-title">Features</h2>
+
+<div class="card">
+
+<div class="feature-list">
+<div class="feature">📺 BD Live Channels</div>
+<div class="feature">🇮🇳 India Live Channels</div>
+<div class="feature">🎬 Movies Collection</div>
+<div class="feature">🍿 Web Series</div>
+<div class="feature">🎌 Anime</div>
+<div class="feature">🔥 Netflix Content</div>
+<div class="feature">✨ Disney+ Content</div>
+<div class="feature">🚀 Prime Video Content</div>
+</div>
+
+</div>
+</section>
+
+<section id="download">
+<h2 class="section-title">Download App</h2>
+
+<div class="card" style="text-align:center;">
+
+<h3 style="margin-bottom:15px;">OTT STORE BD APK</h3>
+
+<p style="margin-bottom:25px;color:#666;">
+Download the latest version of our Android App.
+</p>
+
+<a href="https://drive.google.com/file/d/1-Y1If2K-TxHR646nDzgA-VAOt-rlaeHp/view?usp=sharing"
+target="_blank"
+class="btn">
+Download Now
+</a>
+
+</div>
+</section>
+
+<section id="contact">
+
+<h2 class="section-title">Contact Us</h2>
+
+<div class="card">
+
+<a class="contact-btn"
+href="https://wa.me/8801804728638"
+target="_blank">
+📱 WhatsApp: +8801804728638
+</a>
+
+<a class="contact-btn"
+href="https://t.me/skillstorrebd"
+target="_blank">
+📢 Telegram Channel
+</a>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 OTT STORE BD. All Rights Reserved.
+</footer>
+
+</body>
+</html>
+```
